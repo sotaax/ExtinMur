@@ -1,7 +1,9 @@
+/*Selecciono el body de la pagina para quitar los margenes y aplicar color de fondo*/
 body{
     margin: 0;
     background-color: #d8d174;
 }
+/*selecciono el header le doy la posicion fixed para que me acompañe el navegador durante toda la pagina utilizo el display flex para que los elementos de dentro sean responsivos */
 header{
     position: fixed;
     top: 0px;
@@ -9,6 +11,7 @@ header{
     background-color:#91972A;
     width: 100%;
 }
+/*selecciono el footer y le doy un display flex para que los elementos sean responsivos*/
 footer{
     height: 190px;
     width: 100%;
@@ -25,6 +28,7 @@ footer{
 .imgLogo{
     height: 100%;
 }
+/* le doy un margen superior de 50 px*/
 .imgPrincipal{
     margin-top:50px;
     width: 100%;
@@ -33,6 +37,7 @@ footer{
 .divPrincipal{
     height:100%;
 }
+/* pongo los elementos a la derecha quito la decoracion de los enlaces y le doy un margen superior y superior*/
 .divNav a{
     float:right;
     margin-right: 50px;
@@ -43,12 +48,14 @@ footer{
 .divNav{
     flex: 8;
 } 
+/* alineo el texto a justificado*/
 .divPrincipal p{
     margin-left: 300px;
     margin-right: 300px;
     text-align:justify;
     font-size: 25px;
 }
+/* alineo el texto al centro*/
 h3{
     text-align: center;
     font-size: 60px;
@@ -71,6 +78,7 @@ h3{
     margin: auto;
     width:300px;
 }
+/*le doy un borde solido alineo los elementos al centro le doy flex 1 para ocupar un aparte del flexbox*/
 .divImg1{
     flex: 1;
     border: 2px solid;
@@ -80,6 +88,7 @@ h3{
     justify-items: center;
     background-color: #b6c454;
 }
+/*le doy un borde solido y un  flex 1 para ocupar un aparte del flexbox*/
 .divImg2{
     background-color: #b6c454;
     flex: 1;
@@ -87,6 +96,7 @@ h3{
     width: 300px;
     text-align: justify;
 }
+/*le doy un borde solido y un  flex 1 para ocupar un aparte del flexbox*/
 .divImg3{
     background-color: #b6c454;
     flex: 1;
@@ -140,6 +150,7 @@ footer img{
     margin-left: 70%;
     margin-top: 2%;    
 }
+/*le doy un margen suoerior la letra de color negro alineo el texto al centro y le doy un borde solido*/
 form{
     margin-top: 200px;
     color:black;
@@ -170,12 +181,14 @@ form{
     
     width: 600px;
 }
+/*le doy un display flex y  alineo los elemnetos al centro*/
 .divaguilaImg{
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
+/*le doy un tamaño de letra mas grande y pongo el texto justificado*/
 .aguilap{
     font-size: 30px;
     margin: 10px;
